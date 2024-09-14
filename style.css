@@ -1,0 +1,87 @@
+/* 设置全局背景图片 */
+body {
+    background-image: url('aa0ed2ee986ad23fced1e0b220e9b07.png'); /* 确保路径正确 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    background-position: center; /* 背景图片居中 */
+    background-attachment: fixed; /* 背景图片固定在视口中 */
+    background-color: #0d1b2a; /* 背景图片加载失败时的备用背景色 */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* 设置头部背景图片并透明化 */
+header {
+    background: linear-gradient(90deg, rgba(22, 36, 71, 0.8), rgba(31, 64, 104, 0.8)), url('dd1a72d19b72266dbab77e8aa31d9f0.png');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    /* 设置透明度 */
+    opacity: 0.9; /* 使头部区域略微透明 */
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(0, 68, 204, 0.8); /* 背景颜色半透明 */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgba(0, 51, 153, 0.8); /* 悬停时颜色稍深 */
+}
+
+section {
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(27, 38, 59, 0.85); /* 内容区域半透明 */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    color: #00bfff;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00bfff;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(22, 36, 71, 0.9); /* 底部半透明背景 */
+    color: #ffffff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
+}
